@@ -35,11 +35,11 @@ public class Student {
         numberOfCredits = aNumberOfCredits;
     }
 
-    public int getGpa () {
+    public double getGpa () {
         return gpa;
     }
 
-    private void setGpa (int aGpa) {
+    private void setGpa (double aGpa) {
         gpa = aGpa;
     }
 }

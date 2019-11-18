@@ -3,7 +3,7 @@ package org.launchcode.java.demos.lsn3classes1;
 public class SchoolPractice {
     public static void main(String[] args) {
 
-        public class Student {
+        class Student {
 
             private String name = "Alex";
             private int studentId = 69;
@@ -35,11 +35,11 @@ public class SchoolPractice {
                 numberOfCredits = aNumberOfCredits;
             }
 
-            public int getGpa () {
+            public double getGpa () {
                 return gpa;
             }
 
-            private void setGpa (int aGpa) {
+            private void setGpa (double aGpa) {
                 gpa = aGpa;
             }
         }    }
